@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do Application</h1>
+
+      <!-- Dark/Light Mode Toggle Button -->
+      <div class="theme-switcher">
+        <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+        <span class="textlabel" id="themeLabel">Switch to Light Mode</span>
+      </div>
+
+      <div class="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new task" />
+        <button id="add-todo">Add Task</button>
+      </div>
+
+      <div class="tabs">
+        <button class="tab-btn" data-filter="all">All</button>
+        <button class="tab-btn" data-filter="favorite">Favorite</button>
+        <button class="tab-btn" data-filter="pending">Pending</button>
+        <button class="tab-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <ul id="todo-list">
+        <!-- To-Do items will be displayed here -->
+      </ul>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>
