@@ -116,5 +116,5 @@
    ### For any questions or suggestions, please feel free to reach out to [samnoyal33@gmail.com].
 
 ## Additional Resources
-   ### [Flask Documentation](https://flask.palletsprojects.com/en/stable/)
-   ### [Render Deployment Guide](https://docs.render.com/)
+   #### [Flask Documentation](https://flask.palletsprojects.com/en/stable/)
+   #### [Render Deployment Guide](https://docs.render.com/)
