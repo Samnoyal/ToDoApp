@@ -1,5 +1,5 @@
 # Flask To-Do Application
-## This is a full-featured To-Do Application built using Flask for the backend and HTML, CSS, and JavaScript for the frontend. The app includes features such as marking tasks as Favorite, Pending, or Completed, and supports a Dark/Light mode toggle for a modern UI experience.
+#### This is a full-featured To-Do Application built using Flask for the backend and HTML, CSS, and JavaScript for the frontend. The app includes features such as marking tasks as Favorite, Pending, or Completed, and supports a Dark/Light mode toggle for a modern UI experience.
 
 ## Features
    1. Add, edit, and delete tasks.
@@ -30,7 +30,6 @@
    ```
 
 2. Set up a virtual environment (optional but recommended):
-   #### ~~You Can Skip This Step~~
    
    ```bash
    python -m venv venv
@@ -70,21 +69,24 @@
    ├── templates/            # HTML templates
    │   └── index.html
    ├── requirements.txt      # Dependencies for the project
-   └── Procfile              # Instructions for deployment
    ```
 
 ## Deployment Instructions (Public Server)
 ### Deploying on Render
 #### Render is a cloud platform that makes it easy to deploy web applications. Follow these steps to deploy your Flask To-Do app on Render:
 
-1. Sign up or log in to Render: Go to Render.com and sign in using your GitHub or GitLab account.
+1. Sign up or log in to Render:
+   
+   *Go to Render.com and sign in using your GitHub or GitLab account.*
+
 2. Create a New Web Service:
+   
    *Click the New button in the top-right corner of the dashboard and select Web Service.*
    *Connect your GitHub or GitLab repository to Render.*
    *Choose the repository where your Flask To-Do app is stored.*
 
 3. Configure the Service:
-
+   
    *Name: Give your web service a name (e.g., ToDoApp).*
    *Build Command: Leave the default (pip install -r requirements.txt).*
    *Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).*
