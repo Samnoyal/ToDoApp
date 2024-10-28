@@ -25,23 +25,26 @@
 1. Clone the repository: Open a terminal or command prompt and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Samnoyal/ToDoApp.git
+   cd ToDoApp
    ```
 
 2. Set up a virtual environment (optional but recommended):
-
+   #### ~~You Can Skip This Step~~
+   
    ```bash
    python -m venv venv
    source venv/bin/activate   # For Linux/MacOS
+   ```
+   ```bash
    venv\Scripts\activate      # For Windows
    ```
 
 3.Install the dependencies: Install all the required Python libraries using pip:
       
-      ```
-      pip install -r requirements.txt
-      ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Run the Flask application: After installing the dependencies, start the Flask development server:
 
@@ -58,7 +61,7 @@
 #### Now, you can start using the To-Do application locally.
 
 ## Project Structure
-   bash
+   ```bash
    .
    ├── app.py                # Main Flask application file
    ├── static/               # CSS, JS, and other static files
@@ -68,6 +71,7 @@
    │   └── index.html
    ├── requirements.txt      # Dependencies for the project
    └── Procfile              # Instructions for deployment
+   ```
 
 ## Deployment Instructions (Public Server)
 ### Deploying on Render
@@ -81,7 +85,7 @@
 
 3. Configure the Service:
 
-   *Name: Give your web service a name (e.g., flask-todo-app).*
+   *Name: Give your web service a name (e.g., ToDoApp).*
    *Build Command: Leave the default (pip install -r requirements.txt).*
    *Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).*
    *Choose the Python 3.x environment.*
@@ -94,7 +98,7 @@
 
 5. View the Live Application:
 
-   *After successful deployment, Render will provide a public URL where your application is live (e.g., https://flask-todo-app.onrender.com).*
+   *After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].***
    *You can share this URL to give others access to your app.*
 
 ## Notes on Deployment
@@ -105,8 +109,8 @@
    ### This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-   ### For any questions or suggestions, please feel free to reach out to [your-email@example.com].
+   ### For any questions or suggestions, please feel free to reach out to [samnoyal33@gmail.com].
 
 ## Additional Resources
-   Flask Documentation
-   Render Deployment Guide
+   ### [Flask Documentation](https://flask.palletsprojects.com/en/stable/)
+   ### [Render Deployment Guide](https://docs.render.com/)
