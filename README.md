@@ -33,6 +33,8 @@
    
    ```bash
    python -m venv venv
+   ```
+   ```bash
    source venv/bin/activate   # For Linux/MacOS
    ```
    ```bash
@@ -77,35 +79,35 @@
 
 1. Sign up or log in to Render:
    
-   *Go to Render.com and sign in using your GitHub or GitLab account.*
+   *Go to [Render.com](https://dashboard.render.com/) and sign in using your GitHub or GitLab account.
 
 2. Create a New Web Service:
    
-   *Click the New button in the top-right corner of the dashboard and select Web Service.*
+   *Click the New button in the top-right corner of the dashboard and select Web Service.
    *Connect your GitHub or GitLab repository to Render.*
-   *Choose the repository where your Flask To-Do app is stored.*
+   *Choose the repository where your Flask To-Do app is stored.
 
 3. Configure the Service:
    
-   *Name: Give your web service a name (e.g., ToDoApp).*
-   *Build Command: Leave the default (pip install -r requirements.txt).*
-   *Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).*
-   *Choose the Python 3.x environment.*
-   *Set the Instance Type (you can select the free tier for small applications).*
+   *Name: Give your web service a name (e.g., ToDoApp).
+   *Build Command: Leave the default (pip install -r requirements.txt).
+   *Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).
+   *Choose the Python 3.x environment.
+   *Set the Instance Type (you can select the free tier for small applications).
 
 4. Deploy:
 
-   *Click Create Web Service to start the deployment.*
-   *Render will pull the latest code from your repository, install the dependencies, and deploy the application.*
+   *Click Create Web Service to start the deployment.
+   *Render will pull the latest code from your repository, install the dependencies, and deploy the application.
 
 5. View the Live Application:
 
-   *After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].***
-   *You can share this URL to give others access to your app.*
+   *After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].**
+   *You can share this URL to give others access to your app.
 
 ## Notes on Deployment
-   *Auto-Deploy: You can enable auto-deploy so that each time you push changes to the repository, Render will automatically redeploy the app.*
-   *Environment Variables: If you need to set any environment variables (e.g., database URIs), you can do this in the Settings tab of your Render service.*
+   *Auto-Deploy: You can enable auto-deploy so that each time you push changes to the repository, Render will automatically redeploy the app.
+   *Environment Variables: If you need to set any environment variables (e.g., database URIs), you can do this in the Settings tab of your Render service.
 
 ## License
    ### This project is licensed under the MIT License - see the LICENSE file for details.
