@@ -79,21 +79,21 @@
 
 1. Sign up or log in to Render:
    
-   *Go to [Render.com](https://dashboard.render.com/) and sign in using your GitHub or GitLab account.
+   * Go to [Render.com](https://dashboard.render.com/) and sign in using your GitHub or GitLab account.
 
 2. Create a New Web Service:
    
-   *Click the New button in the top-right corner of the dashboard and select Web Service.
-   *Connect your GitHub or GitLab repository to Render.*
-   *Choose the repository where your Flask To-Do app is stored.
+   * Click the New button in the top-right corner of the dashboard and select Web Service.
+   * Connect your GitHub or GitLab repository to Render.*
+   * Choose the repository where your Flask To-Do app is stored.
 
 3. Configure the Service:
    
-   *Name: Give your web service a name (e.g., ToDoApp).
-   *Build Command: Leave the default (pip install -r requirements.txt).
-   *Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).
-   *Choose the Python 3.x environment.
-   *Set the Instance Type (you can select the free tier for small applications).
+   * Name: Give your web service a name (e.g., ToDoApp).
+   * Build Command: Leave the default (pip install -r requirements.txt).
+   * Start Command: Enter gunicorn app:app (this will run your Flask app using Gunicorn).
+   * Choose the Python 3.x environment.
+   * Set the Instance Type (you can select the free tier for small applications).
 
 4. Deploy:
 
