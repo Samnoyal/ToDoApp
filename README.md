@@ -16,9 +16,9 @@
 ## Local Setup and Run Instructions
 ### Prerequisites
 #### Before setting up the project, make sure you have the following installed on your system:
-   *Python 3.8+*
-   *pip (Python package installer)*
-   *Git (version control)*
+   * Python 3.8+
+   * pip (Python package installer)
+   * Git (version control)
    
 ### Instructions to Set Up the Application Locally
 
@@ -97,17 +97,17 @@
 
 4. Deploy:
 
-   *Click Create Web Service to start the deployment.
-   *Render will pull the latest code from your repository, install the dependencies, and deploy the application.
+   * Click Create Web Service to start the deployment.
+   * Render will pull the latest code from your repository, install the dependencies, and deploy the application.
 
 5. View the Live Application:
 
-   *After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].**
-   *You can share this URL to give others access to your app.
+   * After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].**
+   * You can share this URL to give others access to your app.
 
 ## Notes on Deployment
-   *Auto-Deploy: You can enable auto-deploy so that each time you push changes to the repository, Render will automatically redeploy the app.
-   *Environment Variables: If you need to set any environment variables (e.g., database URIs), you can do this in the Settings tab of your Render service.
+   * Auto-Deploy: You can enable auto-deploy so that each time you push changes to the repository, Render will automatically redeploy the app.
+   * Environment Variables: If you need to set any environment variables (e.g., database URIs), you can do this in the Settings tab of your Render service.
 
 ## License
    ### This project is licensed under the MIT License - see the LICENSE file for details.
