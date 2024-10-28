@@ -39,9 +39,9 @@
 
 3.Install the dependencies: Install all the required Python libraries using pip:
       
-   ```bash
-   pip install -r requirements.txt
-   ```
+      ```
+      pip install -r requirements.txt
+      ```
 
 4. Run the Flask application: After installing the dependencies, start the Flask development server:
 
