@@ -27,6 +27,7 @@
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+   ```
 
 2. Set up a virtual environment (optional but recommended):
 
@@ -34,21 +35,25 @@
    python -m venv venv
    source venv/bin/activate   # For Linux/MacOS
    venv\Scripts\activate      # For Windows
+   ```
 
 3.Install the dependencies: Install all the required Python libraries using pip:
-
-      ```bash
-      pip install -r requirements.txt
+      
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Run the Flask application: After installing the dependencies, start the Flask development server:
 
-      ```bash
-      python app.py
-
+   ```bash
+   python app.py
+   ```
+      
 5. Access the application: Once the app is running, open your web browser and go to:
 
    ```bash
    http://127.0.0.1:5000/
+   ```
 
 #### Now, you can start using the To-Do application locally.
 
