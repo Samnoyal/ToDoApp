@@ -102,7 +102,7 @@
 
 5. View the Live Application:
 
-   * After successful deployment, Render will provide a public URL where your application is live **ToDo Application : [https://flask-todo-app.onrender.com](https://todoapp-r4s4.onrender.com].**
+   * After successful deployment, Render will provide a public URL where your application is live **ToDo Application : https://todoapp-r4s4.onrender.com**
    * You can share this URL to give others access to your app.
 
 ## Notes on Deployment
