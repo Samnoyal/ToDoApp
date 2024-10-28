@@ -5,6 +5,7 @@
 ## Setup Instructions
 
    1.  ### Clone the repository:
+      
       ```bash
       git clone https://github.com/yourusername/flask-todo-app.git
       cd flask-todo-app
@@ -16,11 +17,9 @@
       source venv/bin/activate  # On Windows: venv\Scripts\activate
       ```
    3. ### Install dependencies:
-       
-      ```bash
-      pip install -r requirements.txt
-      ```
-   4.  ### Install dependencies:
+            ```bash
+            pip install -r requirements.txt
+   5.  ### Install dependencies:
    
       ```bash
       pip install -r requirements.txt
