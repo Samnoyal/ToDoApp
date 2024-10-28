@@ -1,4 +1,4 @@
-# Flask To-Do Application
+# To-Do Application
 #### This is a full-featured To-Do Application built using Flask for the backend and HTML, CSS, and JavaScript for the frontend. The app includes features such as marking tasks as Favorite, Pending, or Completed, and supports a Dark/Light mode toggle for a modern UI experience.
 
 ## Features
